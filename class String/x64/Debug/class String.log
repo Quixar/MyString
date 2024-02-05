@@ -1,0 +1,25 @@
+﻿  class String.cpp
+C:\Users\Quixar\source\repos\class String\class String.cpp(32,18): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Quixar\source\repos\class String\class String.cpp(136,18): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Quixar\source\repos\class String\class String.cpp(168,12): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(198,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(215,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(239,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(256,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(282,26): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(291,26): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(291,53): warning C4018: '>': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(296,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(306,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(317,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(334,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(347,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(361,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(363,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(391,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(393,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(417,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(431,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Quixar\source\repos\class String\class String.cpp(451,19): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Quixar\source\repos\class String\class String.cpp(465,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  class String.vcxproj -> C:\Users\Quixar\source\repos\class String\x64\Debug\class String.exe
