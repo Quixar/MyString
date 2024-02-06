@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 #include <ctime>
 using namespace std;
@@ -459,6 +459,55 @@ ostream& operator << (ostream& o, String& s)
 	return cout;
 }
 
+bool operator < (String& left, String& right)
+{
+	if (left.GetLength() < right.GetLength())
+	{
+		cout << "First string lesst hen string\n";
+		return true;
+	}
+	return false;
+}
+
+bool operator <= (String& left, String& right)
+{
+	if (left.GetLength() <= right.GetLength())
+	{
+		cout << "First string less or equal then second string\n";
+		return true;
+	}
+	return false;
+}
+
+bool operator > (String& left, String& right)
+{
+	if (left.GetLength() > right.GetLength())
+	{
+		cout << "First string greater then second string\n";
+		return true;
+	}
+	return false;
+}
+
+bool operator >= (String& left, String& right)
+{
+	if (left.GetLength() >= right.GetLength())
+	{
+		cout << "First string greater or equal then second string\n";
+		return true;
+	}
+	return false;
+}
+
+bool operator == (String& left, String& right) {
+	return left.CompareTo(right);
+}
+
+bool operator != (String& left, String& right)
+{
+	return !(left == right);
+}
+
 int main()
 {
 	setlocale(LC_ALL, "");
@@ -472,21 +521,27 @@ int main()
 	//String c(120); // TO DO: учесть пожелание клиента, если он хочет сделать резерв больше чем 80.
 	//c.Print();// как вариант, при передаче числа можно его перевести в строку, "120"
 	//
-	String d("Sasha", 30);
+	String d("Sashaa", 30);
 	String b("Sasha", 20);
-	char character = 'A';
-	char oldChar = 'a';
-	char newChar = 'b';
-	int index = 3;
-	int start = 3;
-	int count = 2;
+	d == b;
+	d != b;
+	d < b;
+	d <= b;
+	d > b;
+	d >= b;
+	//char character = 'A';
+	//char oldChar = 'a';
+	//char newChar = 'b';
+	//int index = 3;
+	//int start = 3;
+	//int count = 2;
 	//cout << (int)character;
 	//String ab = d.ToUpper();
 	//ab.Print();
 	//d.RandomFill();
 	//d.Print();
-	cin >> d;
-	cout << d << "\n";
+	//cin >> d;
+	//cout << d << "\n";
 
 	//string str = d;
 	//cout << str;
