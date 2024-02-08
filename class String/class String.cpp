@@ -12,6 +12,12 @@ private:
 	friend istream& operator >> (istream& i, String& s);
 	friend ostream& operator << (ostream& o, String& s);
 public:
+
+	operator string()
+	{
+		return text;
+	}
+
 	String() : String("", 80) {}
 
 	String(const char* text) : String(text, 80) {}
@@ -437,11 +443,6 @@ public:
 			}
 			text[i] = (char)random;
 		}
-	}
-
-	operator string()
-	{
-		return text;
 	}
 };
 
